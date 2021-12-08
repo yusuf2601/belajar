@@ -61,23 +61,23 @@ _logo_line_2_ = ('%s / _ \|  ___| |  | | %s┌───────────�
 _logo_line_3_ = ('%s| |_| |____ | |__| | %s│    %s• 𝕐𝕌𝕊𝕌𝔽 𝕄𝔸𝕌𝕃𝔸ℕ𝔸 •    %s│'%(_H_,_M_,_B_,_M_))
 _logo_line_4_ = ('%s|_| |_|_____| _____| %s│   %s★ANONYMOUS CRACKER★   %s│'%(_B_,_M_,_U_,_M_))
 _logo_line_5_ = ('%s     ＦＵＣＫ        %s└─────────────────────────┘'%(_U_,_M_))
-_logo_line_6_ = ('%s┌─────────────────────────┐'%(_M_))
-_logo_line_7_ = ('%s│ %s• %sfacebook :user.rtl   %s│'%(_M_,_P_,_H_,_M_))
+_logo_line_6_ = ('%s┌───────────────────────────┐'%(_M_))
+_logo_line_7_ = ('%s│ %s• %sfacebook :user.rtl      %s│'%(_M_,_P_,_H_,_M_))
 _logo_line_8_ = ('%s│ %s• %sInstagram:yusuf_maulana261%s│'%(_M_,_P_,_H_,_M_))
 _logo_line_9_ = ('%s│ %s• %sWa       :+6285640119704%s│'%(_M_,_P_,_H_,_M_))
-_logo_line_10 = ('%s└─────────────────────────┘'%(_M_))
+_logo_line_10 = ('%s└───────────────────────────┘'%(_M_))
 
 def _my_logo_():
     _dapunta_cici_(_logo_line_1_)
     _dapunta_cici_(_logo_line_2_)
     _dapunta_cici_(_logo_line_3_)
     _dapunta_cici_(_logo_line_4_)
-    _dapunta_cici_(_logo_line_5_)
+    _dapunta_cici_(_logo_line_5_+'\n')
     _dapunta_cici_(_logo_line_6_)
     _dapunta_cici_(_logo_line_7_)
     _dapunta_cici_(_logo_line_8_)
     _dapunta_cici_(_logo_line_9_)
-    _dapunta_cici_(_logo_line_10_+'\n')
+    _dapunta_cici_(_logo_line_10)
 
 ### User Agent
 ua_xiaomi  = 'Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36 [FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]'
