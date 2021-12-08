@@ -56,7 +56,7 @@ _B_ = "\x1b[0;34m" # Biru
 _K_ = "\x1b[0;33m" # Kuning
 
 ### Logo
-_logo_line_1_ = ('%s                        %s__________'%(_H_,_K_,_H_))
+_logo_line_1_ = ('%s                          __________'%(_H_))
 _logo_line_2_ = ('%s[•]%sAuthor:Yusuf M    %s.~#########≠≠;~.'%(_H_,_K_,_H_))
 _logo_line_3_ = ('%s[•]%sFb:user.rtl       %s/############≠≠;`\ '%(_H_,_K_,_H_))
 _logo_line_4_ = ('%s[•]%sIg:085640119704  %s/###### %s/~\/~\ %s≠≠;,;,\ '%(_H_,_M_,_H_))
