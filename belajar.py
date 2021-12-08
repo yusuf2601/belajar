@@ -56,7 +56,7 @@ _K_="\x1b[0;33m"  #Kuning
 _B_="\x1b[0;34m" #Biru
 
 ### Logo
-_logo_line_1_ = (%sW %sE %sL %sC %sO %sM %sE '%(_M_,_P_,_K_,_H_,_B_,_U_,_M_))
+_logo_line_1_ = ('%sW %sE %sL %sC %sO %sM %sE '%(_M_,_P_,_K_,_H_,_B_,_U_,_M_))
 _logo_line_2_ = ('%┌─────────────────────────┐ '%(_M_))
 _logo_line_3_ = ('%│              %s★%sYUSUF MAULANA%s★                      %s│'%(_M_,_K_,_B_,_K_,_M_))
 _logo_line_4_ = ('%│            %s★%sANOYNMOUS CRACKER%s★              %s│'%(_M_,_K_,_B_,_K_,_M_))
