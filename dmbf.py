@@ -52,13 +52,15 @@ _P_ = "\x1b[0;97m" # Putih
 _M_ = "\x1b[0;91m" # Merah
 _H_ = "\x1b[0;92m" # Hijau
 _U_ = "\x1b[0;95m" # Ungu
+_B_ = "\x1b[0;34m" # Biru
+_K_ = "\x1b[0;33m" # Kuning
 
 ### Logo
 _logo_line_1_ = ('%s ___  __  __ ___ ___ '%(_P_))
-_logo_line_2_ = ('%s|   \|  \/  | _ ) __| %s┌─────────────────────────┐'%(_P_,_U_))
-_logo_line_3_ = ('%s| |) | |\/| | _ \ _|  %s│    %s• YUSUF MAULANA •    %s│'%(_P_,_U_,_P_,_U_))
-_logo_line_4_ = ('%s|___/|_|  |_|___/_|   %s│   %sANONYMOUS CRACKER     %s│'%(_P_,_U_,_P_,_U_))
-_logo_line_5_ = ('%s PANSER  BIRU 2021    └─────────────────────────┘'%(_U_))
+_logo_line_2_ = ('%s|   \|  \/  | _ ) __| %s┌─────────────────────────┐'%(_M_,_U_))
+_logo_line_3_ = ('%s| |) | |\/| | _ \ _|  %s│    %s• YUSUF MAULANA •    %s│'%(_K_,_U_,_P_,_U_))
+_logo_line_4_ = ('%s|___/|_|  |_|___/_|   %s│   %s★ANONYMOUS CRACKER★  %s│'%(_H_,_U_,_P_,_U_))
+_logo_line_5_ = ('%s PANSER  BIRU 2021    %s└─────────────────────────┘'%(_B_,_U_))
 def _my_logo_():
     _dapunta_cici_(_logo_line_1_)
     _dapunta_cici_(_logo_line_2_)
