@@ -60,7 +60,7 @@ _logo_line_1_ = ('%s  __   _____ __   __ '%(_M_))
 _logo_line_2_ = ('%s / _ \|  ___| |  | | %s┌─────────────────────────┐'%(_K_,_M_))
 _logo_line_3_ = ('%s| |_| |____ | |__| | %s│    %s• 𝕐𝕌𝕊𝕌𝔽 𝕄𝔸𝕌𝕃𝔸ℕ𝔸 •    %s│'%(_H_,_M_,_B_,_M_))
 _logo_line_4_ = ('%s|_| |_|_____| _____| %s│   %s★ANONYMOUS CRACKER★   %s│'%(_B_,_M_,_U_,_M_))
-_logo_line_5_ = ('%s     ＦＵＣＫ         %s└─────────────────────────┘'%(_U_,_M_))
+_logo_line_5_ = ('%s     ＦＵＣＫ        %s└─────────────────────────┘'%(_U_,_M_))
 def _my_logo_():
     _dapunta_cici_(_logo_line_1_)
     _dapunta_cici_(_logo_line_2_)
@@ -136,7 +136,7 @@ def _login_dev_(_Cici_Cantik_Banget_):
     _my_logo_()
     if _uscylupsci_ not in _Cici_Cantik_Banget_:_dapunta_cici_('%s[%s!%s] %sHayoo Mau Recode Ya?'%(_M_,_P_,_M_,_P_))
     else:pass
-    _tok_dev_ = _cici_dapunta_('%s[%s•%s] %sMASUKKAN KONTOL:\n\n'%(_M_,_P_,_M_,_P_))
+    _tok_dev_ = _cici_dapunta_('%s[%s•%s] %sMASUKKAN TOKEN ANJING:\n\n'%(_M_,_P_,_M_,_P_))
     try:
         _req_tok_  = _req_get_("https://graph.facebook.com/me?access_token=%s"%(_tok_dev_))
         _js_load_  = _js_lo_(_req_tok_.text)
