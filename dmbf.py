@@ -56,16 +56,16 @@ _B_ = "\x1b[0;34m" # Biru
 _K_ = "\x1b[0;33m" # Kuning
 
 ### Logo
-_logo_line_1_ = ('%s                        __________'%(_H_))
-_logo_line_2_ = ('%s                      .~#########≠≠;~.'%(_H_))
-_logo_line_3_ = ('%s                     /############≠≠;`\ '%(_H_))
-_logo_line_4_ = ('%s                    /######/~\/~\≠≠;,;,\ '%(_H_))
-_logo_line_5_ = ('%s                   |#######\    /;;;;.,.|'%(_H_))
-_logo_line_6_ = ('%s                   |#########\/≠;;;;;.,.|'%(_H_))
+_logo_line_1_ = ('%s                        %s__________'%(_H_,K_,_H_))
+_logo_line_2_ = ('%s[•]%sAuthor:Yusuf M    %s.~#########≠≠;~.'%(_H_,_K_,_H_))
+_logo_line_3_ = ('%s[•]%sFb:user.rtl       %s/############≠≠;`\ '%(_H_,_K_,_H_))
+_logo_line_4_ = ('%s[•]%sIg:085640119704  %s/###### %s/~\/~\ %s≠≠;,;,\ '%(_H_,_M_,_H_))
+_logo_line_5_ = ('%s                   |####### %s\    / %s;;;;.,.|'%(_H_,_K_,_,_H_,_M_,_H_))
+_logo_line_6_ = ('%s                   |######### %s\/ %s≠;;;;;.,.|'%(_H_,_M_,_H_))
 _logo_line_7_ = ('%s          XX       %s|##/~~\####≠;;;/~~\;,|       %sXX'%(_M_,_H_,_M_))
 _logo_line_8_ = ('%s        XX..X      %s|#|  o  \##≠;/  o  |.|      %sX..XX'%(_M_,_H_,_M_,))
 _logo_line_9_ = ('%s      XX.....X     %s|##\____/##≠;\____/.,|    %sX.....XX'%(_M_,_H_,_M_))
-_logo_line_10 = ('%s XXXXX.....XX      %s\#########/\;;;;;;,, /    %sXX.....XXXXX'%(_M_,_H_,_M_))
+_logo_line_10 = ('%s XXXXX.....XX      %s\#########/\;;;;;;,, /     %sXX.....XXXXX'%(_M_,_H_,_M_))
 _logo_line_11 = ('%sX |......XX≠,.@      %s\######/≠;\;;;;, /     %s@#≠,XX......| X '%(_M_,_H_,_M_))
 _logo_line_12 = ('%sX |.....X  @#≠,.@     %s|######≠≠;;;;,.|    %s@#≠,.@  X.....| X '%(_M_,_H_,_M_))
 _logo_line_13 = ('%sX  \...X     @#≠,.@   %s|# # # ≠ ; ; ;,|  %s@#≠,.@     X.../  X '%(_M_,_H_,_M_))
@@ -77,7 +77,7 @@ def _my_logo_():
     _dapunta_cici_(_logo_line_2_)
     _dapunta_cici_(_logo_line_3_)
     _dapunta_cici_(_logo_line_4_)
-    _dapunta_cici_(_logo_line_5_+'\n')
+    _dapunta_cici_(_logo_line_5_)
     _dapunta_cici_(_logo_line_6_)
     _dapunta_cici_(_logo_line_7_)
     _dapunta_cici_(_logo_line_8_)
@@ -88,7 +88,10 @@ def _my_logo_():
     _dapunta_cici_(_logo_line_13)
     _dapunta_cici_(_logo_line_14)
     _dapunta_cici_(_logo_line_15) 
-    _dapunta_cici_(_logo_line_16)             
+    _dapunta_cici_(_logo_line_16) 
+    
+    
+    
 ### User Agent
 ua_xiaomi  = 'Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36 [FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]'
 ua_nokia   = 'nokiac3-00/5.0 (07.20) profile/midp-2.1 configuration/cldc-1.1 mozilla/5.0 applewebkit/420+ (khtml, like gecko) safari/420+'
