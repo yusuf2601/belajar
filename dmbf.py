@@ -230,8 +230,8 @@ def _menu_dev_(_Dapunta_Ganteng_Banget_):
     except:
         _tanggal_ = ' '
     _dapunta_cici_('%s╔══ %sSELAMAT DATANG %s%s'%(_K_,_H_,_B_,_nama_dev_))
-    _dapunta_cici_('%s╠══ %sID : %s'%(_K_,_H_,,_B_,_id_dev_))
-    _dapunta_cici_('%s╠══ %sIP : %s'%(_K_,_H_,,_B_,_ip_dev_))
+    _dapunta_cici_('%s╠══ %sID : %s'%(_K_,_H_,_B_,_id_dev_))
+    _dapunta_cici_('%s╠══ %sIP : %s'%(_K_,_H_,_B_,_ip_dev_))
     _dapunta_cici_('%s╚══ %sTgl : %s\n'%(_K_,_H_,_B_,_tanggal_))
     _dapunta_cici_('%s────────────────────────────────────────────────'%(_K_)
     _dapunta_cici_('%s╔══%s[%s1%s] %sCrack ID Dari Teman/Publik'%(_B_,_H_,_P_,_H_,_K_))
