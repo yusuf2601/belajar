@@ -104,7 +104,7 @@ def _my_logo_():
     _dapunta_cici_(_logo_line_21)
     _dapunta_cici_(_logo_line_22)
     _dapunta_cici_(_logo_line_23)
-        time.sleep(3)
+
     
     
     
@@ -122,7 +122,7 @@ ua_windows = 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, li
 _id_tampung_ = []
 _result_     = []
 
-### Jangan Diganti Nanti Error !!!
+### Jangan Diganti Nanti Error !!
 _oscylopsce_ = '__Dapunta__'
 _ascylapsci_ = '__Cici__'
 _escylipsce_ = '__Dapunta_Love_Cici__'
