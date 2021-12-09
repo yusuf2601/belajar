@@ -54,6 +54,7 @@ _H_ = "\x1b[0;92m" # Hijau
 _U_ = "\x1b[0;95m" # Ungu
 _B_ = "\x1b[0;34m" # Biru
 _K_ = "\x1b[0;33m" # Kuning
+_O_ = "\x1b[0;96m" # Biru Muda
 
 ### Logo
 _logo_line_1_ = ('%s                          __________'%(_H_))
@@ -229,10 +230,10 @@ def _menu_dev_(_Dapunta_Ganteng_Banget_):
         _tanggal_ = tanggal.replace('-',' ')
     except:
         _tanggal_ = ' '
-    _dapunta_cici_('%s╔══ %sSELAMAT DATANG %s%s'%(_K_,_P_,_H_,_nama_dev_))
-    _dapunta_cici_('%s╠══ %sID : %s'%(_K_,_P_,_H_,_id_dev_))
-    _dapunta_cici_('%s╠══ %sIP : %s'%(_K_,_P_,_H_,_ip_dev_))
-    _dapunta_cici_('%s╚══ %sTgl : %s\n'%(_K_,_P_,_H_,_tanggal_))
+    _dapunta_cici_('%s╔══ %sSELAMAT DATANG %s%s'%(_K_,_O_,_H_,_nama_dev_))
+    _dapunta_cici_('%s╠══ %sID : %s'%(_K_,_O_,_id_dev_))
+    _dapunta_cici_('%s╠══ %sIP : %s'%(_K_,_O_,_ip_dev_))
+    _dapunta_cici_('%s╚══ %sTgl : %s\n'%(_K_,_O_,_tanggal_))
     _dapunta_cici_('%s────────────────────────────────────────────────'%(_K_))
     _dapunta_cici_('%s╔══%s[%s1%s] %sCrack ID Dari Teman/Publik'%(_B_,_H_,_P_,_H_,_K_))
     _dapunta_cici_('%s╠══%s[%s2%s] %sCrack ID Dari Pengikut'%(_B_,_H_,_P_,_H_,_K_))
