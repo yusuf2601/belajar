@@ -72,13 +72,13 @@ _logo_line_13 = ('%sX  \...X     @#≠,.@   %s|# # # ≠ ; ; ;,|  %s@#≠,.@    
 _logo_line_14 = ('%s X# \.X        @#≠,.@                  @#≠,.@        X./  # '%(_M_))
 _logo_line_15 = ('%s  ##  X          @#≠,.@              @#≠,.@          X   # '%(_M_))
 _logo_line_16 = ('%s, "# #X            @#≠,.@          @#≠,.@            X ## '%(_M_))
-_logo_line_17 = ('%s───────────────────────────────────────────────────
+_logo_line_17 = ('%s───────────────────────────────────────────────────'%(_K_))
 _logo_line_18 = ( '%s» %sAuthor    :%sYUSUF MAULANA '%(_K_,_P_,_H_))
 _logo_line_19 = ( '%s» %sFacebook  :%sFacebook.com/user.rtl '%(_K_,_P_,_H_))
 _logo_line_20 = ( '%s» %sInstagram :%sYusuf_maulana261 '%(_K_,_P_,_H_))
 _logo_line_21 = ( '%s» %sWa        :%s+6285640119704 '%(_K_,_P_,_H_))
 _logo_line_22 = ( '%s» %sGithub    :%sGithub.com/yusuf2601 '%(_K_,_P_,_H_))
-_logo_line_23 = ('%s───────────────────────────────────────────────────
+_logo_line_23 = ('%s───────────────────────────────────────────────────'%(_K_))
 def _my_logo_():
     _dapunta_cici_(_logo_line_1_)
     _dapunta_cici_(_logo_line_2_)
