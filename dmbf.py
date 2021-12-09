@@ -72,13 +72,13 @@ _logo_line_13 = ('%sX  \...X     @#≠,.@   %s|# # # ≠ ; ; ;,|  %s@#≠,.@    
 _logo_line_14 = ('%s X# \.X        @#≠,.@                  @#≠,.@        X./  # '%(_M_))
 _logo_line_15 = ('%s  ##  X          @#≠,.@              @#≠,.@          X   # '%(_M_))
 _logo_line_16 = ('%s, "# #X            @#≠,.@          @#≠,.@            X ## '%(_M_))
-_logo_line_17 = ('%s─────────────────────────────────────────────────────────'%(_K_))
+_logo_line_17 = ('%s────────────────────────────────────────────────────────────────────'%(_K_))
 _logo_line_18 = ( '%s» %sAuthor    :%sYUSUF MAULANA '%(_K_,_P_,_H_))
 _logo_line_19 = ( '%s» %sFacebook  :%sFacebook.com/user.rtl '%(_K_,_P_,_H_))
 _logo_line_20 = ( '%s» %sInstagram :%sYusuf_maulana261 '%(_K_,_P_,_H_))
 _logo_line_21 = ( '%s» %sWa        :%s+6285640119704 '%(_K_,_P_,_H_))
 _logo_line_22 = ( '%s» %sGithub    :%sGithub.com/yusuf2601 '%(_K_,_P_,_H_))
-_logo_line_23 = ('%s─────────────────────────────────────────────────────────────────────────────────'%(_K_))
+_logo_line_23 = ('%s────────────────────────────────────────────────────────────────────'%(_K_))
 
 def _my_logo_():
     _dapunta_cici_(_logo_line_1_)
@@ -229,7 +229,7 @@ def _menu_dev_(_Dapunta_Ganteng_Banget_):
         _tanggal_ = tanggal.replace('-',' ')
     except:
         _tanggal_ = ' '
-    _dapunta_cici_('%s╔══ %sSELAMAT DATANG %s%s'%(_K_,_H_,_B_,_nama_dev_))
+    _dapunta_cici_('%s╔══ %sSELAMAT DATANG %s'%(_K_,_H_,_B_,_nama_dev_))
     _dapunta_cici_('%s╠══ %sID : %s'%(_K_,_H_,_B_,_id_dev_))
     _dapunta_cici_('%s╠══ %sIP : %s'%(_K_,_H_,_B_,_ip_dev_))
     _dapunta_cici_('%s╚══ %sTgl : %s\n'%(_K_,_H_,_B_,_tanggal_))
