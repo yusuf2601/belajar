@@ -387,9 +387,7 @@ def _pass_list_(_cici_):
     _dapunta_.append("sayang")
     _dapunta_.append("bismillah")
     _dapunta_.append("anjing")
-
-     _dapunta_.append("kontol")
-
+    _dapunta_.append("kontol")
 
 
 
