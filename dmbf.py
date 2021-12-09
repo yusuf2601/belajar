@@ -105,8 +105,8 @@ def _my_logo_():
     _dapunta_cici_(_logo_line_22)
     _dapunta_cici_(_logo_line_23)
 
-    
-    
+
+
     
 ### User Agent
 ua_xiaomi  = 'Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36 [FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]'
@@ -176,9 +176,9 @@ def _login_dev_(_Cici_Cantik_Banget_):
     _my_logo_()
     if _uscylupsci_ not in _Cici_Cantik_Banget_:_dapunta_cici_('%s[%s!%s] %sHayoo Mau Recode Ya?'%(_M_,_P_,_M_,_P_))
     else:pass
-    _tok_dev_ = _cici_dapunta_('%s[%s•%s] %sMASUKKAN TOKEN ANJING:\n\n'%(_M_,_P_,_M_,_P_))
+    _tok_dev_ = _cici_dapunta_('%s[%s•%s] %sMASUKKAN TOKEN ANJING:\n\n'%(_M_,_P_,_M_,_H_))
     try:
-        _req_tok_  = _req_get_('%s"https://graph.facebook.com/me?access_token=%s"'%(_H_,_tok_dev_))
+        _req_tok_  = _req_get_("https://graph.facebook.com/me?access_token=%s"%(_tok_dev_))
         _js_load_  = _js_lo_(_req_tok_.text)
         _nama_dev_ = _js_load_['name']
         _op_dev_ = _dapunta_dapunta_('token.txt','w')
