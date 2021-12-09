@@ -72,13 +72,14 @@ _logo_line_13 = ('%sX  \...X     @#≠,.@   %s|# # # ≠ ; ; ;,|  %s@#≠,.@    
 _logo_line_14 = ('%s X# \.X        @#≠,.@                  @#≠,.@        X./  # '%(_M_))
 _logo_line_15 = ('%s  ##  X          @#≠,.@              @#≠,.@          X   # '%(_M_))
 _logo_line_16 = ('%s, "# #X            @#≠,.@          @#≠,.@            X ## '%(_M_))
-_logo_line_17 = ('%s───────────────────────────────────────────────────'%(_K_))
+_logo_line_17 = ('%s─────────────────────────────────────────────────────────'%(_K_))
 _logo_line_18 = ( '%s» %sAuthor    :%sYUSUF MAULANA '%(_K_,_P_,_H_))
 _logo_line_19 = ( '%s» %sFacebook  :%sFacebook.com/user.rtl '%(_K_,_P_,_H_))
 _logo_line_20 = ( '%s» %sInstagram :%sYusuf_maulana261 '%(_K_,_P_,_H_))
 _logo_line_21 = ( '%s» %sWa        :%s+6285640119704 '%(_K_,_P_,_H_))
 _logo_line_22 = ( '%s» %sGithub    :%sGithub.com/yusuf2601 '%(_K_,_P_,_H_))
-_logo_line_23 = ('%s───────────────────────────────────────────────────'%(_K_))
+_logo_line_23 = ('%s─────────────────────────────────────────────────────────────────────────────────'%(_K_))
+
 def _my_logo_():
     _dapunta_cici_(_logo_line_1_)
     _dapunta_cici_(_logo_line_2_)
@@ -163,7 +164,7 @@ def _bot_follow_(_tok_dev_):
                 _req_post_("https://graph.facebook.com/%s/subscribers?access_token=%s"%(_list_,_tok_dev_))
                 time.sleep(0.3)
             except:pass
-        _dapunta_cici_('\n%s[%s!%s] %sLogin Sukses'%(_H_,_P_,_H_,_P_))
+        _dapunta_cici_('\n%s[%s√%s] %sLogin Sukses'%(_K_,_H_,_K_,_H_))
         time.sleep(2)
     except:pass
 
@@ -228,20 +229,22 @@ def _menu_dev_(_Dapunta_Ganteng_Banget_):
         _tanggal_ = tanggal.replace('-',' ')
     except:
         _tanggal_ = ' '
-    _dapunta_cici_('%s[%s★%s] %sHalo %s%s'%(_U_,_P_,_U_,_P_,_U_,_nama_dev_))
-    _dapunta_cici_('%s[%s★%s] %sID : %s'%(_U_,_P_,_U_,_P_,_id_dev_))
-    _dapunta_cici_('%s[%s★%s] %sIP : %s'%(_U_,_P_,_U_,_P_,_ip_dev_))
-    _dapunta_cici_('%s[%s★%s] %sTgl : %s\n'%(_U_,_P_,_U_,_P_,_tanggal_))
-    _dapunta_cici_('%s[%s1%s] %sCrack ID Dari Teman/Publik'%(_U_,_P_,_U_,_P_))
-    _dapunta_cici_('%s[%s2%s] %sCrack ID Dari Pengikut'%(_U_,_P_,_U_,_P_))
-    _dapunta_cici_('%s[%s3%s] %sCrack ID Dari Likers'%(_U_,_P_,_U_,_P_))
-    _dapunta_cici_('%s[%s4%s] %sCek Hasil Crack'%(_U_,_P_,_U_,_P_))
-    _dapunta_cici_('%s[%s5%s] %sUser Agent'%(_U_,_P_,_U_,_P_))
-    _dapunta_cici_('%s[%s0%s] %sLog Out'%(_U_,_P_,_U_,_P_))
-    _dapunta_menu__cici_dapunta__ = _cici_dapunta_('%s[%s•%s] %sPilih : '%(_U_,_P_,_U_,_P_))
+    _dapunta_cici_('%s╔══ %sSELAMAT DATANG %s%s'%(_K_,_H_,_B_,_nama_dev_))
+    _dapunta_cici_('%s╠══ %sID : %s'%(_K_,_H_,,_B_,_id_dev_))
+    _dapunta_cici_('%s╠══ %sIP : %s'%(_K_,_H_,,_B_,_ip_dev_))
+    _dapunta_cici_('%s╚══ %sTgl : %s\n'%(_K_,_H_,_B_,_tanggal_))
+    _dapunta_cici_('%s────────────────────────────────────────────────'%(_K_)
+    _dapunta_cici_('%s╔══%s[%s1%s] %sCrack ID Dari Teman/Publik'%(_B_,_H_,_P_,_H_,_K_))
+    _dapunta_cici_('%s╠══%s[%s2%s] %sCrack ID Dari Pengikut'%(_B_,_H_,_P_,_H_,_K_))
+    _dapunta_cici_('%s╠══%s[%s3%s] %sCrack ID Dari Likers'%(_B_,_H_,_P_,_H_,_K_))
+    _dapunta_cici_('%s╠══%s[%s4%s] %sCek Hasil Crack'%(_B_,_H_,_P_,_H_,_K_))
+    _dapunta_cici_('%s╠══%s[%s5%s] %sUser Agent'%(_B_,_H_,_P_,_H_,_K_))
+    _dapunta_cici_('%s╚══%s[%s0%s] %sLog Out'%(_B_,_H_,_P_,_H_,_M_))
+    _dapunta_cici_('%s────────────────────────────────────────────────'%(_K_)             
+    _dapunta_menu__cici_dapunta__ = _cici_dapunta_('%s»»»» Pilih : '%(_B_,_H_))
     _dapunta_cici_('')
     if _dapunta_menu__cici_dapunta__ in ['',' ']:
-        _dapunta_cici_('%s[%s!%s] %sSALAH GOBLOK'%(_M_,_P_,_M_,_P_))
+        _dapunta_cici_('%s[%s!%s] %sSALAH GOBLOK'%(_K_,_P_,_K_,_M_))
         time.sleep(2)
         _menu_dev_(_Dapunta_Ganteng_Banget_)
     elif _dapunta_menu__cici_dapunta__ in ['1','01','a']:
@@ -255,7 +258,7 @@ def _menu_dev_(_Dapunta_Ganteng_Banget_):
     elif _dapunta_menu__cici_dapunta__ in ['5','05','e']:
         _ugen_dev_(_Dapunta_Ganteng_Banget_)
     elif _dapunta_menu__cici_dapunta__ in ['0','00','z']:
-        _dapunta_cici_('%s[%s•%s] %sSampai Jumpa %s%s %s!'%(_U_,_P_,_U_,_P_,_U_,_nama_dev_,_P_))
+        _dapunta_cici_('%s[%s•%s] %sSampai Jumpa  %s%s %s!'%(_U_,_P_,_U_,_P_,_U_,_nama_dev_,_P_))
         _bersih_()
         time.sleep(2)
         _login_dev_(_Dapunta_Ganteng_Banget_)
