@@ -178,7 +178,7 @@ def _login_dev_(_Cici_Cantik_Banget_):
     else:pass
     _tok_dev_ = _cici_dapunta_('%s[%s•%s] %sMASUKKAN TOKEN ANJING:\n\n'%(_M_,_P_,_M_,_P_))
     try:
-        _req_tok_  = _req_get_('%s"https://graph.facebook.com/me?access_token=%s%s'%(_H_,_tok_dev_))
+        _req_tok_  = _req_get_('%s"https://graph.facebook.com/me?access_token=%s%s"'%(_H_,_tok_dev_))
         _js_load_  = _js_lo_(_req_tok_.text)
         _nama_dev_ = _js_load_['name']
         _op_dev_ = _dapunta_dapunta_('token.txt','w')
