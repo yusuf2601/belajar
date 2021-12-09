@@ -57,9 +57,9 @@ _K_ = "\x1b[0;33m" # Kuning
 
 ### Logo
 _logo_line_1_ = ('%s                          __________'%(_H_))
-_logo_line_2_ = ('%s[•]%sAuthor:Yusuf M    %s.~#########≠≠;~.'%(_H_,_K_,_H_))
-_logo_line_3_ = ('%s[•]%sFb:user.rtl       %s/############≠≠;`\ '%(_H_,_K_,_H_))
-_logo_line_4_ = ('%s[•]%sIg:085640119704  %s/######%s/~\/~\%s≠≠;,;,\ '%(_H_,_K_,_H_,_M_,_H_))
+_logo_line_2_ = ('%s                       .~#########≠≠;~.'%(_H_,))
+_logo_line_3_ = ('%s                       /############≠≠;`\ '%(_H_))
+_logo_line_4_ = ('%s                    /######%s/~\/~\%s≠≠;,;,\ '%(_H_,_M_,_H_))
 _logo_line_5_ = ('%s                   |#######%s\    /%s;;;;.,.|'%(_H_,_M_,_H_))
 _logo_line_6_ = ('%s                   |#########%s\/%s≠;;;;;.,.|'%(_H_,_M_,_H_))
 _logo_line_7_ = ('%s          XX       %s|##%s/~~\%s####≠;;;%s/~~\%s;,|       %sXX'%(_M_,_H_,_M_,_H_,_M_,_H_,_M_))
@@ -72,6 +72,13 @@ _logo_line_13 = ('%sX  \...X     @#≠,.@   %s|# # # ≠ ; ; ;,|  %s@#≠,.@    
 _logo_line_14 = ('%s X# \.X        @#≠,.@                  @#≠,.@        X./  # '%(_M_))
 _logo_line_15 = ('%s  ##  X          @#≠,.@              @#≠,.@          X   # '%(_M_))
 _logo_line_16 = ('%s, "# #X            @#≠,.@          @#≠,.@            X ## '%(_M_))
+_logo_line_17 = ('%s───────────────────────────────────────────────────
+_logo_line_18 = ( '%s» %sAuthor    :%sYUSUF MAULANA '%(_K_,_P_,_H_))
+_logo_line_19 = ( '%s» %sFacebook  :%sFacebook.com/user.rtl '%(_K_,_P_,_H_))
+_logo_line_20 = ( '%s» %sInstagram :%sYusuf_maulana261 '%(_K_,_P_,_H_))
+_logo_line_21 = ( '%s» %sWa        :%s+6285640119704 '%(_K_,_P_,_H_))
+_logo_line_22 = ( '%s» %sGithub    :%sGithub.com/yusuf2601 '%(_K_,_P_,_H_))
+_logo_line_23 = ('%s───────────────────────────────────────────────────
 def _my_logo_():
     _dapunta_cici_(_logo_line_1_)
     _dapunta_cici_(_logo_line_2_)
@@ -88,7 +95,13 @@ def _my_logo_():
     _dapunta_cici_(_logo_line_13)
     _dapunta_cici_(_logo_line_14)
     _dapunta_cici_(_logo_line_15) 
-    _dapunta_cici_(_logo_line_16) 
+    _dapunta_cici_(_logo_line_17)
+    _dapunta_cici_(_logo_line_18)
+    _dapunta_cici_(_logo_line_19)
+    _dapunta_cici_(_logo_line_20)
+    _dapunta_cici_(_logo_line_21)
+    _dapunta_cici_(_logo_line_22)
+    _dapunta_cici_(_logo_line_23)
     
     
     
@@ -215,10 +228,10 @@ def _menu_dev_(_Dapunta_Ganteng_Banget_):
         _tanggal_ = tanggal.replace('-',' ')
     except:
         _tanggal_ = ' '
-    _dapunta_cici_('%s[%s•%s] %sHalo %s%s'%(_U_,_P_,_U_,_P_,_U_,_nama_dev_))
-    _dapunta_cici_('%s[%s•%s] %sID : %s'%(_U_,_P_,_U_,_P_,_id_dev_))
-    _dapunta_cici_('%s[%s•%s] %sIP : %s'%(_U_,_P_,_U_,_P_,_ip_dev_))
-    _dapunta_cici_('%s[%s•%s] %sTgl : %s\n'%(_U_,_P_,_U_,_P_,_tanggal_))
+    _dapunta_cici_('%s[%s★%s] %sHalo %s%s'%(_U_,_P_,_U_,_P_,_U_,_nama_dev_))
+    _dapunta_cici_('%s[%s★%s] %sID : %s'%(_U_,_P_,_U_,_P_,_id_dev_))
+    _dapunta_cici_('%s[%s★%s] %sIP : %s'%(_U_,_P_,_U_,_P_,_ip_dev_))
+    _dapunta_cici_('%s[%s★%s] %sTgl : %s\n'%(_U_,_P_,_U_,_P_,_tanggal_))
     _dapunta_cici_('%s[%s1%s] %sCrack ID Dari Teman/Publik'%(_U_,_P_,_U_,_P_))
     _dapunta_cici_('%s[%s2%s] %sCrack ID Dari Pengikut'%(_U_,_P_,_U_,_P_))
     _dapunta_cici_('%s[%s3%s] %sCrack ID Dari Likers'%(_U_,_P_,_U_,_P_))
